@@ -14,3 +14,15 @@ if (whoIs === "Админ") {
 } else {
   alert("Я вас не знаю");
 }
+
+const test = true;
+
+if (test !== true) {
+  alert("Верно");
+} else {
+  alert("Неверно");
+}
+
+const result = (test != true) ? "Верно" : "Неверно";
+alert(result);
+

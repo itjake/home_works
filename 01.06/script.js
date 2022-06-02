@@ -34,6 +34,6 @@ if(data === true){
 Сделайте рефакторинг кода, с помощью тернарного оператора.*/
 
 let data = true;
-let number = (data) ? "3" : "5";
+let number = data ? 3 : 5;
 
 alert(number);
